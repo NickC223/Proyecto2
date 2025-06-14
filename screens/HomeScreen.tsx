@@ -10,6 +10,12 @@ export default function HomeScreen ({ navigation }){
         />
         <Button title='Ir a componentes' onPress={() => navigation.navigate('Componentes')} />
         <Button title='Ir a contador' onPress={() => navigation.navigate('Contador')} />
+        <Button title='Ir a pocentaje de bateria' onPress={() => navigation.navigate('Porcentaje de bateria')} />
+        <Button title='Ir a formulario state' onPress={() => navigation.navigate('Formulario state')} />
+        <Button title='Ir a formulario effect' onPress={() => navigation.navigate('Formulario effect')} />
+        <Button title='Ir a obtener personajes' onPress={() => navigation.navigate('Personajes')} />
+        <Button title='Ir a camara' onPress={() => navigation.navigate('Camara')} />
+        <Button title='Ir a contactos' onPress={() => navigation.navigate('Contactos')} />
         </View>
     );
 }
